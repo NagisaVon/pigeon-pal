@@ -1,0 +1,31 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Floating GIF App</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0); /* Transparent background */
+      overflow: hidden; /* Hide scrollbars */
+    }
+    .drag-area {
+    width: 100%;
+    height: 100%;
+    -webkit-app-region: drag; /* Enable dragging */
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      opacity: 1; /* Adjust the opacity as desired */
+    }
+  </style>
+</head>
+<body>
+    <div class="drag-area">
+      <img src="../bgifs/idle.gif" alt="Floating GIF">
+    </div>
+</body>
+</html>
